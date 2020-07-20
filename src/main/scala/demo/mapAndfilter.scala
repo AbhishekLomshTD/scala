@@ -13,5 +13,8 @@ object mapAndfilter {
     println("hello".map(_.toUpper));
     println(List(List(1, 2, 3), List(3, 4, 5)).flatten);
     println(lst.flatMap(x => List(x, x + 1)))
+
+    println(lst.filter(x => x%2 == 0))
+    println(lst.filter(x => x%2 != 0))
   }
 }
