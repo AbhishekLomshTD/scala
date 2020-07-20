@@ -9,9 +9,9 @@ object mapAndfilter {
   def main(args: Array[String]) {
     println(lst.map(_ * 2));
     println(lst.map(x => x + 2));
-    println(lst.map(x => "hi" * x ));
+    println(lst.map(x => "hi" * x));
     println("hello".map(_.toUpper));
-    println(List(List(1,2,3), List(3,4,5)).flatten);
-println(lst.flatMap(x => List(x, x+1)))
+    println(List(List(1, 2, 3), List(3, 4, 5)).flatten);
+    println(lst.flatMap(x => List(x, x + 1)))
   }
 }
